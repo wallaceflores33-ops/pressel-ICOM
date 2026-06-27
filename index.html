@@ -260,10 +260,10 @@ async function enviar() {
   document.querySelector('.sub').style.display = 'none';
   document.getElementById('success-screen').style.display = 'block';
 
-  // Abre WhatsApp automaticamente após 1 segundo
+  // Abre WhatsApp imediatamente
   setTimeout(function() {
     window.open(wppLink, '_blank');
-  }, 1000);
+  }, 0);
 }
 </script>
 </body>
